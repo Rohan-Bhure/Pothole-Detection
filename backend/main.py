@@ -6,7 +6,7 @@ from ai_pipeline import PotholeDetector
 
 # 1. Initialize FastAPI application
 app = FastAPI(title="Pothole Detection API", version="1.0")
-
+print("Working")
 
 app.add_middleware(
     CORSMiddleware,
